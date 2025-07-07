@@ -8,12 +8,12 @@ st.set_page_config(page_title="Multiple Disease Prediction",layout="wide",page_i
 
 working_dir=os.path.dirname(os.path.abspath(__file__))
 
-diabetes_model = pickle.load(open(f'{working_dir}/diabetes.pkl','rb'))
-heart_disease_model=pickle.load(open(f'{working_dir}/heart.pkl','rb'))
-kidney_disease_model=pickle.load(open(f'{working_dir}/kidney.pkl','rb'))
-parkinsons_disease_model=pickle.load(open(f'{working_dir}/Parkinsons.pkl','rb'))
-breast_cancer_model=pickle.load(open(f'{working_dir}/breast_cancer.pkl','rb'))
-liver_disease_model=pickle.load(open(f'{working_dir}/liver.pkl','rb'))
+diabetes_model = pickle.load(open(f'{working_dir}/saved_models/diabetes.pkl','rb'))
+heart_disease_model=pickle.load(open(f'{working_dir}/saved_models/heart.pkl','rb'))
+kidney_disease_model=pickle.load(open(f'{working_dir}//saved_models/kidney.pkl','rb'))
+parkinsons_disease_model=pickle.load(open(f'{working_dir}/saved_models/Parkinsons.pkl','rb'))
+breast_cancer_model=pickle.load(open(f'{working_dir}/saved_models/breast_cancer.pkl','rb'))
+liver_disease_model=pickle.load(open(f'{working_dir}/saved_models/liver.pkl','rb'))
 
 NewBMI_Overweight=0
 NewBMI_Underweight=0

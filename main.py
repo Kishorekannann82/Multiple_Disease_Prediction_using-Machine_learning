@@ -10,7 +10,7 @@ working_dir=os.path.dirname(os.path.abspath(__file__))
 
 diabetes_model = pickle.load(open(f'{working_dir}/saved_models/diabetes.pkl','rb'))
 heart_disease_model=pickle.load(open(f'{working_dir}/saved_models/heart.pkl','rb'))
-kidney_disease_model=pickle.load(open(f'{working_dir}//saved_models/kidney.pkl','rb'))
+kidney_disease_model=pickle.load(open(f'{working_dir}/saved_models/kidney.pkl','rb'))
 parkinsons_disease_model=pickle.load(open(f'{working_dir}/saved_models/Parkinsons.pkl','rb'))
 breast_cancer_model=pickle.load(open(f'{working_dir}/saved_models/breast_cancer.pkl','rb'))
 liver_disease_model=pickle.load(open(f'{working_dir}/saved_models/liver.pkl','rb'))
